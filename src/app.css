@@ -1,0 +1,23 @@
+@font-face {
+	font-family: code;
+	src: url('/fonts/XanhMono-Regular.ttf')
+}
+
+:root {
+	--orange: rgba(239, 183, 22, 1.0);
+	--orange-dim: rgba(239, 183, 22, 0.75);
+	--black: rgba(10,11,5,255);
+}
+
+html {
+	font-family: code;
+	background-color: var(--black);
+	color: var(--orange);
+}
+
+a {
+	color: var(--orange);
+}
+a:visited {
+	color: var(--orange);
+}
